@@ -4,7 +4,8 @@
 
 
 # production
-/frontend/build
+yarn.lock
+/frontend/yarn.lock
 
 # misc
 /backend/config/config.env

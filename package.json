@@ -1,16 +1,15 @@
 {
-  "name": "userdata",
+  "name": "todo",
   "version": "1.0.0",
-  "description": "User Data with MERN",
+  "description": "TODO with MERN",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
     "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
     "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
-    "seeder": "node backend/utils/seeder.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "seeder": "node backend/utils/seeder.js"
   },
-  "author": "Sri Harsha",
+  "author": "Satya Sai",
   "license": "ISC",
   "dependencies": {
     "async": "^3.2.4",
